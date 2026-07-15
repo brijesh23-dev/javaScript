@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#btn{
+background-color: rgb(0, 203, 105);
+height: 1rem;
+
+border-radius: 0.3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+color: white;
+margin-left: 100px;
+}
+
+#btn:hover{
+background-color: rgb(1, 140, 73);
+height: 1rem;
+
+border-radius: 0.3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+color: white;
+margin-left: 100px;
+transform: scale(1.1);
+cursor: pointer;
+}
+
+#file{
+    display: none;
+}
+
+ul{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+ul li{
+    list-style: none;
+}
+.lt{
+  text-decoration: line-through;
+}
