@@ -1,4 +1,5 @@
-
+//hoisting is a process of moving the declaration of variables and functions to the top of the scope.
+//it is a process of moving the declaration of variables and functions to the top of the scope.also known as variable declaration.
 
 //case1
 
