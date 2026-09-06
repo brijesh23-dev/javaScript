@@ -1,0 +1,20 @@
+A Promise in JavaScript is an object that represents the eventual completion (success) or failure of an asynchronous operation.
+
+Why do we need Promises?
+
+JavaScript executes code synchronously by default. For operations like:
+
+Fetching data from an API
+Reading a file
+Waiting for a timer
+Database queries
+
+we don't want the program to stop and wait. Promises help handle these asynchronous tasks cleanly.
+
+Promise States
+
+A Promise has three states:
+
+Pending – Initial state, operation is still running.
+Fulfilled (Resolved) – Operation completed successfully.
+Rejected – Operation failed.

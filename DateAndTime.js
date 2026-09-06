@@ -29,9 +29,12 @@ let date = new Date();
 // console.log(newdate1.toLocaleString());
 
 let newDate = new Date();
-console.log(newDate.getDay())
- console.log(newDate.getDate())
- console.log(newDate.getHours())
- console.log(newDate.getMinutes())
- console.log(newDate.getSeconds())
- console.log(newDate.getMilliseconds())
+// console.log(newDate.getDay())
+//  console.log(newDate.getDate())
+//  console.log(newDate.getHours())
+//  console.log(newDate.getMinutes())
+//  console.log(newDate.getSeconds())
+//  console.log(newDate.getMilliseconds())
+
+ let Dates = new Date(2026,2,2,10,10,10,10);
+ console.log(Dates.toLocaleString());
